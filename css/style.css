@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+img {
+    width: 100%;
+}
+
+.img2 {
+    display: none;
+}
+
+.row {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.product {
+    padding: 5px;
+    width: 32%;
+    display: inline-block;
+}
+
+.img-container {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 100%;
+    padding: 5px 5px;
+    background-color: white;
+}
+
+.position {
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    color: white;
+}
+
+.discount { 
+    background-color: red;
+    left: 0;
+    padding: 1px 3px;
+}
+
+.sustenibility {
+    background-color: green;
+    display: inline-block;
+    padding: 1px 5px;
+}
+
+.description {
+
+}
