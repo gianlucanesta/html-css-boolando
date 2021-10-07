@@ -94,7 +94,7 @@ img {
     font-size: 12px;
     text-decoration: line-through; 
     position: relative;
-    left: 35px
+    left: 40px
     
 }
 
@@ -110,3 +110,4 @@ img {
 .product:hover .img2 {
     display: inline-block;
 }
+
