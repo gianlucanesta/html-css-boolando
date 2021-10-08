@@ -14,7 +14,7 @@ img {
 
 .img2 {
     display: none;
-    position: absolute;
+   
     left: 0;
     top: 0;
     text-align: center;
@@ -38,41 +38,39 @@ img {
 
 .heart {
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 0;
-    font-size: 20px;
-    padding: 5px 10px;
+    font-size: 40px;
+    padding: 5px 15px;
     background-color: white;
 }
 
-.discount { 
+.position {
     position: absolute;
     display: inline-block;
-    font-size: 14px;
-    bottom: 35px;
+    font-size: 18px;
+    bottom: 30px;
     color: white;
+    width: auto;
+}
+
+
+.discount { 
     background-color: red;
     left: 0;
-    padding: 1px 3px;
+    padding: 2px 3px;
 
 }
 
 .sustenibility {
-    position: absolute;
-    display: inline-block;
-    font-size: 14px;
-    bottom: 35px;
-    left: 40px;
-    color: white;
+    left: 50px;
     background-color: green;
-    padding: 1px 5px;
-    width: 80px;
+    padding: 2px 5px;
 }
 
 .tag {
     left: 0px;
 }
-
 
 .description {
     text-align: left;
@@ -80,16 +78,17 @@ img {
 }
 
 .marca {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .nome {
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 .pricing {
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: bolder;
     display: inline-block;
     position: relative;
 }
@@ -100,11 +99,10 @@ img {
 }
 
 .original-price {
-    font-size: 12px;
-    text-decoration: line-through; 
     position: absolute;
-    left: 40px
-    
+    font-size: 16px;
+    text-decoration: line-through; 
+    left: 55px;
 }
 
 .product:hover {
@@ -115,3 +113,6 @@ img {
     display: inline-block;
 }
 
+.product:hover .img1{
+    display: none;
+}
